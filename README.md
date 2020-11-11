@@ -30,7 +30,7 @@ $ ./huffman -u -f compressed.bin -o new_qwerty.txt
  make huff
  ```
 
-### Build test:
+### Build tests:
 ```
 make test
 ```
