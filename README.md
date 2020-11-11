@@ -12,18 +12,18 @@ Program output: the size of the source data, the size of the processed (archived
 
 Examples:
 
-$ ./huffman -c -f qwerty.txt -o compressed.bin
+`$ ./huffman -c -f qwerty.txt -o compressed.bin
 15678
 6172
-482
+482`
 
-$ ./huffman -u -f compressed.bin -o new_qwerty.txt
+`$ ./huffman -u -f compressed.bin -o new_qwerty.txt
    6172
    15678
-   482
+   482`
    
 Build main program:
-`make huff`
+ `make huff`
 
 Build test:
 `make test`
