@@ -1,17 +1,17 @@
 # Huffman-archiver
 ### Archiver based on Huffman algorithm.
 
-### Command line parameters:
+#### Command line parameters:
 
     -c: archive mod
     -u: unarchive mod
     -f, --file <input file path>
     -o, --output <output file path>
 
-### Program output: 
+#### Program output: 
 The size of the source data, the size of the processed (archived or unarchived) data, the size of the additional data (in bytes).
 
-### Examples:
+#### Examples:
 ```
 $ ./huffman -c -f qwerty.txt -o compressed.bin
     15678
@@ -25,17 +25,17 @@ $ ./huffman -u -f compressed.bin -o new_qwerty.txt
    482
 ```
    
-### Build of the main program:
+#### Build of the main program:
  ```
  make huff
  ```
 
-### Build of the tests:
+#### Build of the tests:
 ```
 make test
 ```
 
-### Clean:
+#### Clean:
 ```
 make clean
 ```
