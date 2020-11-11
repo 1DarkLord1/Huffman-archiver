@@ -25,12 +25,12 @@ $ ./huffman -u -f compressed.bin -o new_qwerty.txt
    482
 ```
    
-### Build main program:
+### Build of the main program:
  ```
  make huff
  ```
 
-### Build tests:
+### Build of the tests:
 ```
 make test
 ```
